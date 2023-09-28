@@ -1,0 +1,29 @@
+{
+    "name": "realpvz/laravel-dddrift",
+    "description": "DDD",
+    "autoload": {
+        "psr-4": {
+            "Realpvz\\DDDrift\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "realpvz"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "laravel/framework": "^10.25"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Realpvz\\DDDrift\\LaravelDriftServiceProvider"
+            ]
+        }
+    }
+}
